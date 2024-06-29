@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "photo2sheet"
+version = "0.1.0"
+description = ""
+authors = ["salko-ua <chips69jamil69game@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+aiogram = "^3.8.0"
+apykuma = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
